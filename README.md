@@ -8,7 +8,7 @@ Uncomment the following in `/boot/config`
 
     dtparam=i2c_arm=on
     
-Then add the following line to `\etc\modules`
+Then add the following line to `/etc/modules`
 
     snd-bcm2835
     i2c-dev
@@ -26,8 +26,8 @@ Finally reboot your raspberry.
     
 ## Documentation
 
-https://www.pi-supply.com/bright-pi-v1-0-code-examples/
-http://www.raspberry-projects.com/pi/pi-operating-systems/raspbian/io-pins-raspbian/i2c-pins
-https://brightpi.codeplex.com/SourceControl/latest
-https://raspberrypi.stackexchange.com/questions/27073/firmware-3-18-x-breaks-i%C2%B2c-spi-audio-lirc-1-wire-e-g-dev-i2c-1-no-such-f
-http://pi.gadgetoid.com/pinout
+- https://www.pi-supply.com/bright-pi-v1-0-code-examples/
+- http://www.raspberry-projects.com/pi/pi-operating-systems/raspbian/io-pins-raspbian/i2c-pins
+- https://brightpi.codeplex.com/SourceControl/latest
+- https://raspberrypi.stackexchange.com/questions/27073/firmware-3-18-x-breaks-i%C2%B2c-spi-audio-lirc-1-wire-e-g-dev-i2c-1-no-such-f
+- http://pi.gadgetoid.com/pinout
